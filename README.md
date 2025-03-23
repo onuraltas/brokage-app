@@ -47,6 +47,10 @@ You should set this JWT token in every request header as Authorization key.
 
 ------------------------------------------------------------------------------------------
 
+A unit test is provided in tests folder as AssetUtilTests
+
+------------------------------------------------------------------------------------------
+
 Initial H2 database customers and assets data is;
 
 INSERT INTO `customers` (`customer_id`,`customer_name`, `email`, `encrypted_password`) VALUES (1, 'Onur', 'onur@gmail.com', '{bcrypt}$2a$10$/mw6kw0p1SvKKfP3OdK8LOacaHG9CoPw/oLjUz8ubXMSt8Wifi/Ei');
