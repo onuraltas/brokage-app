@@ -1,4 +1,4 @@
-package com.challenge;
+package com.challenge.config;
 
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
